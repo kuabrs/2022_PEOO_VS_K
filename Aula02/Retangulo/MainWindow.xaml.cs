@@ -24,5 +24,14 @@ namespace Retangulo
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            calc c = new calc();
+            c.SetBase(double.Parse(txtbase.Text));
+            c.SetAltura(double.Parse(txtaltura.Text));
+            txtarea.Text = c.CalcArea().ToString("0.00");
+            txtdiagonal.Text = c.CalcDiagonal().ToString("0.00");
+        }
     }
 }

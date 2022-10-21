@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Retangulo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="716">
     <Grid>
+        <GroupBox Header="Área e Diagonal" HorizontalAlignment="Center" Height="344" Margin="0,41,0,0" VerticalAlignment="Top" Width="590">
+            <Grid Height="309" Margin="0,0,19,0">
+                <TextBlock HorizontalAlignment="Left" Height="21" Margin="82,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"><Run Language="pt-br" Text="Base:"/></TextBlock>
+                <TextBox x:Name="txtbase" HorizontalAlignment="Left" Height="27" Margin="74,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104"/>
+                <TextBlock HorizontalAlignment="Left" Height="21" Margin="387,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"><Run Language="pt-br" Text="Altura"/><Run Text=":"/></TextBlock>
+                <TextBox x:Name="txtaltura" HorizontalAlignment="Left" Height="27" Margin="379,84,74,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104"/>
+                <TextBlock HorizontalAlignment="Left" Height="21" Margin="387,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"><Run Language="pt-br" Text="Diagonal"/><Run Text=":"/></TextBlock>
+                <TextBox x:Name="txtdiagonal" HorizontalAlignment="Left" Height="27" Margin="379,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104"/>
+                <TextBlock HorizontalAlignment="Left" Height="21" Margin="82,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"><Run Language="pt-br" Text="Área"/><Run Text=":"/></TextBlock>
+                <TextBox x:Name="txtarea" HorizontalAlignment="Left" Height="27" Margin="74,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104"/>
+                <Button Content="Calcular" Margin="143,135,143,130" Height="44" Width="273" Click="Button_Click"/>
 
+            </Grid>
+        </GroupBox>
     </Grid>
 </Window>

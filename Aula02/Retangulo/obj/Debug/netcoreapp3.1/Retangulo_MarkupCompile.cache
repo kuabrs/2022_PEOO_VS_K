@@ -1,5 +1,5 @@
 ﻿Retangulo
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\repos\2022_PEOO_VS_K\Aula02\Retangulo\App.xaml
 11407045341
 
-6195649206
+4-1205811559
 192-1533232326
 MainWindow.xaml;
 
-True
+False
 
