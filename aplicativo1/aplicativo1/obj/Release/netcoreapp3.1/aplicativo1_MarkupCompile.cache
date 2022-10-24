@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\repos\2022_PEOO_VS_K\aplicativo1\aplicativo1\obj\Debug\netcoreapp3.1\
+C:\repos\2022_PEOO_VS_K\aplicativo1\aplicativo1\obj\Release\netcoreapp3.1\
 aplicativo1
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 C:\repos\2022_PEOO_VS_K\aplicativo1\aplicativo1\App.xaml
 11407045341
 
